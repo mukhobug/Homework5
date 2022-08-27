@@ -22,21 +22,21 @@ public class Main {
         int[] arr = {1, 1, 1};
         for (int i = 0; i < arrInt.length; i++) {
             System.out.print(arrInt[i]);
-            if (i >= 0 && i != arrInt.length - 1) {
+            if (i != arrInt.length - 1) {
                 System.out.print(",");
             }
         }
         System.out.println("\n");
         for (int i = 0; i < arrDouble.length; i++) {
             System.out.print(arrDouble[i]);
-            if (i >= 0 && i != arrDouble.length - 1) {
+            if (i != arrDouble.length - 1) {
                 System.out.print(",");
             }
         }
         System.out.println("\n");
         for (int i = 0; i < arrInt.length; i++) {
             System.out.print(arr[i]);
-            if (i >= 0 && i != arr.length - 1) {
+            if (i != arr.length - 1) {
                 System.out.print(",");
             }
         }
@@ -77,11 +77,9 @@ public class Main {
             } else {
                 System.out.print(arrInt[i]);
             }
-            if (i >= 0 && i != arrInt.length - 1) {
+            if (i != arrInt.length - 1) {
                 System.out.print(",");
             }
         }
     }
-
-
 }
